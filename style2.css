@@ -1,0 +1,245 @@
+/*ESTILO GERAL*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #f5f7f5;
+  color: #222;
+  line-height: 1.6;
+}
+
+/*CABEÇALHO */
+header {
+  background: linear-gradient(90deg, #1b5e20, #43a047);
+  color: #fff;
+  padding: 15px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 1.6em;
+  font-weight: 700;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #c8e6c9;
+  transform: translateY(-2px);
+}
+
+.search-box input {
+  padding: 6px 15px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 0.9em;
+}
+
+/*CONTEÚDO PRINCIPAL*/
+main {
+  max-width: 1000px;
+  margin: 40px auto;
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/*SEÇÃO SOBRE*/
+.about h2 {
+  text-align: center;
+  background: #2e7d32;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.about p {
+  text-align: justify;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.about-highlight {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 25px;
+  background: #eafbe7;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.about-highlight img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #3cb371;
+}
+
+.about-highlight h3 {
+  color: #1f7a1f;
+  margin-bottom: 10px;
+}
+
+/*VALORES*/
+.values h2 {
+  text-align: center;
+  background: #2e7d32;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 60px 0 25px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #f1fff1;
+  border: 1px solid #c8e6c9;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card h3 {
+  color: #1f7a1f;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #2c3e50;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/*EQUIPE*/
+.team h2 {
+  text-align: center;
+  background: #2e7d32;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 60px 0 25px 0;
+}
+
+.player-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.player {
+  width: 160px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.player:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.player img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 2px solid #3cb371;
+}
+
+.player p {
+  margin: 3px 0;
+  color: #2c3e50;
+}
+
+/*CONTATO*/
+.contact h2 {
+  text-align: center;
+  background: #2e7d32;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 60px 0 25px 0;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact p {
+  color: #1f7a1f;
+  margin: 5px 0;
+  font-weight: 500;
+}
+
+
+/*RODAPÉ*/
+footer {
+  background: #e8f5e9;
+  color: #065f46;
+  padding: 40px 20px;
+  margin-top: 40px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  text-align: center;
+}
+
+footer h4 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+footer p {
+  margin: 5px 0;
+  color: #065f46;
+}
+
+.copy {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 0.9em;
+  border-top: 1px solid #b2dfdb;
+  padding-top: 10px;
+}
