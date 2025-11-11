@@ -367,11 +367,8 @@ footer p {
   opacity: 0.8;
 }
 
-/*---------------------------------------------*/
-/*      RESPONSIVIDADE - MOBILE FRIENDLY       */
-/*---------------------------------------------*/
+/*RESPONSIVIDADE*/
 
-/* Tablets (até 992px) */
 @media (max-width: 992px) {
   header {
     flex-direction: column;
@@ -397,7 +394,6 @@ footer p {
   }
 }
 
-/* Smartphones (até 768px) */
 @media (max-width: 768px) {
   .logo {
     font-size: 1.3em;
@@ -433,7 +429,6 @@ footer p {
   }
 }
 
-/* Telas muito pequenas (até 480px) */
 @media (max-width: 480px) {
   header {
     padding: 10px 20px;
